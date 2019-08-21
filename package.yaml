@@ -1,0 +1,29 @@
+name:                unipatterns
+version:             0.0.0.0
+github:              "ChrisPenner/unipatterns"
+license:             BSD3
+author:              "Chris Penner"
+maintainer:          "christopher.penner@gmail.com"
+copyright:           "Chris Penner"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+# Metadata used when publishing your package
+synopsis:            Helpers which allow safe partial pattern matching in lambdas
+category:            Language
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on GitHub at <https://github.com/ChrisPenner/unipatterns#readme>
+
+ghc-options:
+- -Wall
+
+dependencies:
+- base >= 4.7 && < 5
+
+library:
+  source-dirs: src
